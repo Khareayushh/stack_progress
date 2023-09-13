@@ -57,8 +57,8 @@ const Alltask = ({tasks, updateData}) => {
   return (
     <div className='all_tasks'>
         <h2 style={{ paddingLeft: '10px' }}>Task List</h2>
-        <Paper sx={{ width: '100%', overflow: 'hidden', height: "45vh" }}>
-        <TableContainer sx={{ maxHeight: 300 }}>
+        <Paper sx={{ width: '100%', overflow: 'hidden', height: "40vh" }}>
+        <TableContainer sx={{ maxHeight: 280 }}>
           <Table stickyHeader aria-label="sticky table">
             <TableHead>
               <TableRow>

@@ -11,7 +11,7 @@ const Addtasks = ({updateData}) => {
 
   // const [tasks, setTasks] = useState([]);
   const [taskText, setTaskText] = useState("");
-  const [taskStatus, setTaskStatus] = useState('incomplete'); // Default status
+  const [taskStatus, setTaskStatus] = useState('Incomplete'); // Default status
   const [err, setErr] = useState(false);
 
   // useEffect(() => {
@@ -66,7 +66,7 @@ const Addtasks = ({updateData}) => {
 
     // // Reset the input fields
     setTaskText('');
-    setTaskStatus('incomplete');
+    setTaskStatus('Incomplete');
   };
 
   return (
@@ -102,8 +102,8 @@ const Addtasks = ({updateData}) => {
             value={taskStatus}
             onChange={handleTaskStatusChange}
             >
-            <MenuItem value="complete">Complete</MenuItem>
-            <MenuItem value="incomplete">Incomplete</MenuItem>
+            <MenuItem value="Complete">Complete</MenuItem>
+            <MenuItem value="Incomplete">Incomplete</MenuItem>
             </Select>
         </FormControl>
         <Button variant="contained" onClick={handleAddTask} style={{backgroundColor: "#ef5350", fontSize: "17px"}}>
