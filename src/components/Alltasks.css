@@ -6,3 +6,14 @@
     border-radius: 15px;
     margin-top: 10px;
 }
+
+.del_btn:hover{
+    background-color: #ef5350;
+    color: white;
+    transition: 0.3s;
+}
+
+.del_btn{
+    border-radius: 5px;
+    cursor: pointer;
+}
