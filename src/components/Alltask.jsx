@@ -16,7 +16,7 @@ const columns = [
     fontSize: '17px', // Adjust the font size as needed
     fontWeight: 500, // Adjust the font weight as needed
   }},
-  { id: 'status', label: 'Status', minWidth: 50 },
+  { id: 'status', label: 'Status', minWidth: 80 },
   { id: 'action', label: 'Close', minWidth: 50 },
 ];
 
