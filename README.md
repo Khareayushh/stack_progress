@@ -1,8 +1,24 @@
-# React + Vite
+# My Awesome ToDo List Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Welcome to the My Awesome ToDo List website! This web application allows users to create and manage their to-do lists efficiently. You can add, update, and delete tasks, mark tasks as completed or incomplete, and keep track of your daily tasks in a user-friendly interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+
+- **Frontend**:
+  - React: A JavaScript library for building user interfaces.
+  - Material-UI: A popular React UI framework for designing modern web applications with pre-designed components.
+  - HTML/CSS: For structuring and styling the user interface.
+
+## Features
+
+- Add new tasks with descriptions and task statuses.
+- Mark tasks as complete or incomplete.
+- Delete tasks from your list.
+- User-friendly and responsive design for all devices.
+
+## How to Check
+
+1. Just go to this link :- https://ak-tdo.netlify.app/
+2. Inspired from the desing https://www.behance.net/gallery/90219979/Todo-List
