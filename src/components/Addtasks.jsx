@@ -28,6 +28,12 @@ const Addtasks = ({updateData}) => {
     setTaskStatus(e.target.value);
   };
 
+  // const handleEnterKey = (event) => {
+  //   if(event.key === 'Enter'){
+  //     handleAddTask();
+  //   }
+  // }
+
   const handleAddTask = () => {
     // Here, you can add the task to your state or perform any other action
     
@@ -85,6 +91,11 @@ const Addtasks = ({updateData}) => {
                 style: {
                   borderRadius: "15px",
                 }
+            }}
+            onKeyDown={(event) => {
+              if(event.key === 'Enter'){
+                handleAddTask();
+              }
             }}
         />
         <FormControl 
